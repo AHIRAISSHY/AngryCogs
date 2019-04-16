@@ -15,10 +15,16 @@ class RndAvatar:
         self.images = glob.glob("data/rndavatar/*.png")
         self.loop = bot.loop.create_task(self.change_avatar())
         self.status ={
-                    "normal"    : discord.Status.online,
-                    "deepfried"    : discord.Status.dnd,
-                    "magik"     : discord.Status.idle,
-                    "deepfriedmagik"   : discord.Status.dnd
+                    "farrukopicture1"    : discord.Status.online,
+                    "farrukopicture2"    : discord.Status.dnd,
+                    "farrukopicture3"    : discord.Status.idle,
+                    "farrukopicture4"    : discord.Status.dnd    
+                    "farrukopicture5"    : discord.Status.idle
+                    "farrukopicture6"    : discord.Status.online
+                    "farrukopicture7"    : discord.Status.dnd
+                    "farrukopicture8"    : discord.Status.idle
+                    "farrukopicture9"    : discord.Status.dnd
+                    "farrukopicture10"    : discord.Status.online
                    }
     
     def __unload(self):
